@@ -1,0 +1,16 @@
+.gaming-lib-card{
+    flex: 1 1 100%;
+}
+
+
+.gaming-lib-card ul{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    padding: calc(var(--padding-primary)) 0;
+    border-bottom: 1px solid var(--color-primary) ;
+}
+
+.gaming-lib-card ul li span{
+     color: #666;
+}
